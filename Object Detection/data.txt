@@ -1,2 +1,1 @@
 https://www.kaggle.com/datasets/jfachrel/object-detection-thisabel
-[Object Detection Dataset](https://www.kaggle.com/datasets/jfachrel/object-detection-thisabel)
