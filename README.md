@@ -15,6 +15,10 @@ We adjust the network model and the input size so that it fits with the data we 
 ## 2. Object Detection
 [Object Detection Dataset](https://www.kaggle.com/datasets/jfachrel/object-detection-thisabel)
 
+We used an open-source dataset that consists of 7 classes. [person](https://www.kaggle.com/datasets/laurentmih/aisegmentcom-matting-human-datasets), [car](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), [cat](https://www.kaggle.com/c/dogs-vs-cats), [dog](https://www.kaggle.com/c/dogs-vs-cats), [flower](http://www.image-net.org), [fruit](https://www.kaggle.com/moltean/fruits), and [motorbike](http://host.robots.ox.ac.uk/pascal/VOC). Each class contains about 1000 datasets.
+
+The dataset was trained by using the MobilenetV2 transfer learning model. For the base model, we loaded pre-trained weights from imagenet dataset and froze the first 150 layers and unfroze the rest, so the state of a frozen layer won't be updated during training. The results obtained from the validation accuracy reached 98%. As a result, we obtained the validation accuracy of **98%**.
+
 ## 3. Sign Language Detection
 [Sign Language Dataset](https://www.kaggle.com/datasets/najmaaaaaaaaa/data-augment)
 
