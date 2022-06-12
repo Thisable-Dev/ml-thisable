@@ -19,6 +19,8 @@ We used an open-source dataset that consists of 7 classes. [person](https://www.
 
 The dataset was trained by using the MobilenetV2 transfer learning model. For the base model, we loaded pre-trained weights from imagenet dataset and froze the first 150 layers and unfroze the rest, so the state of a frozen layer won't be updated during training. The results obtained from the validation accuracy reached 98%. As a result, we obtained the validation accuracy of **98%**.
 
+![Object Detection](https://user-images.githubusercontent.com/44915001/173232407-cdae40d2-9884-4837-b0b0-ce517f0f9d8b.png)
+
 ## 3. Sign Language Detection
 [Sign Language Dataset](https://www.kaggle.com/datasets/najmaaaaaaaaa/data-augment)
 
