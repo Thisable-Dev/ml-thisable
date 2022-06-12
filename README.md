@@ -23,3 +23,8 @@ The data we use are pictures of half-bodied humans with plain backgrounds demons
 We adjust the network model and the input size so that it fits with the data we have.
 
 ![signlanguage](https://user-images.githubusercontent.com/76579538/173191442-1e2681c7-ba02-41a7-bc7c-e8cc201bb049.png)
+
+
+## Architecture of SSD MobileNet V2
+
+![image](https://user-images.githubusercontent.com/76579538/173220485-6999cc1d-d9cf-4ec5-8558-91e873dd2b81.png)
